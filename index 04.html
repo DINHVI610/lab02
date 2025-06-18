@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 20px;
+        }
+        input{
+            border-radius: 3px;
+        }
+        input[type="text"]:hover {
+             background-color: #f8f091;
+        }
+        input[type="email"]:hover {
+             background-color: #67cfff;
+        }
+        input[type="tel"]:hover {
+             background-color: #25ff4d;
+        }
+    </style>
+</head>
+<body>
+    <h1>ĐĂNG KÝ THÔNG TIN CÁ NHÂN</h1>
+    <p>Họ và tên:<P>
+      <input type="text" name="ten" required>
+    </p>
+    <p>Email:<p>
+      <input type="email" name="email" required>
+    </p>
+    <p>Số điện thoại:<p>
+      <input type="tel" name="sdt" required>
+    </p>
+    <p>Giới tính:<p>
+      <input type="radio" name="gioitinh" value="Nam" required> Nam
+      <input type="radio" name="gioitinh" value="Nữ"> Nữ
+    </p>
+    <p>
+      <input type="submit" value="Gửi">
+    </p>
+</body>
+</html>
