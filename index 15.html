@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover{
+            background-color: azure;
+        }
+        .respone{
+            margin-top: 10px;
+        }
+        .email{
+            margin-top: 10px;
+        }
+        button{
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        p{
+            color:rgb(30, 2, 242);
+            background-color: rgb(255, 216, 242);
+        }
+    </style>
+</head>
+<body>
+    <p>Đánh giá sao
+      <span class="star" data-value="1">&#9733;</span>
+      <span class="star" data-value="2">&#9733;</span>
+      <span class="star" data-value="3">&#9733;</span>
+      <span class="star" data-value="4">&#9733;</span>
+      <span class="star" data-value="5">&#9733;</span>
+    </p>
+    <div class="respone">
+      <textarea rows="4" placeholder="Nội dung phản hồi..." required></textarea>
+    </div>
+    <div class="email">
+      <input type="email" placeholder="Email của bạn" required>
+    </div>
+
+        <button type="submit">Gửi phản hồi</button>
+</body>
+</html>
